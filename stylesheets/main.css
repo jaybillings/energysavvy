@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Laila:400,500);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Global styles */
+html {
+  font-size: 13px;
+  font-family: 'Arial Neue', arial, helvetica, sans-serif;
+  font-weight: 400;
+  color: #472f15; }
+
+body {
+  background-color: #e0bb80;
+  color: #472f15; }
+
+h1 {
+  font-family: 'Laila', serif;
+  font-size: 4em;
+  font-weight: 500;
+  text-transform: lowercase;
+  color: #f8eacf; }
+
+h2 {
+  font-family: 'Laila', serif;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 2em;
+  color: #c0ae8b; }
+
+a {
+  color: #e0bb80;
+  text-decoration: none; }
+
+strong {
+  color: #f8eacf; }
+
+/* Section styles */
+.content-wrap {
+  background: url(../images/wood_texture.jpg);
+  border-top: 1px dashed #e0bb80;
+  margin-top: 20px;
+  color: #e0bb80; }
+
+.content {
+  width: 930px;
+  margin: 0 auto 30px; }
+
+main {
+  border-spacing: 1.5em 2em; }
+
+header {
+  position: relative;
+  margin: 20px; }
+  header .cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px; }
+    header .cart img {
+      width: 35px;
+      vertical-align: middle; }
+    header .cart p {
+      display: inline-block;
+      margin-left: 7px; }
+    header .cart a {
+      font-size: 1.2em; }
+  header .caption {
+    margin: -5px 0 0 50px; }
+
+nav.primary-nav ul {
+  display: table;
+  border-spacing: 5px 0;
+  margin: 0 15px; }
+nav.primary-nav li {
+  display: table-cell;
+  color: #917141;
+  font-size: 1.2em;
+  background: #e0bb80;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px 15px 0 0;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: lowercase;
+  box-shadow: inset 0px -1px 5px 0px rgba(145, 113, 65, 0.5); }
+nav.primary-nav li:first-child, nav.primary-nav li:hover {
+  background: #f8eacf;
+  color: #472f15;
+  box-shadow: none; }
+nav.primary-nav .nav-panel {
+  background: #f8eacf;
+  border-radius: 10px;
+  padding: 15px 0 0; }
+  nav.primary-nav .nav-panel img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; }
+  nav.primary-nav .nav-panel div {
+    display: inline-block;
+    width: 100%;
+    color: #674a3e;
+    font-size: 2em;
+    font-family: 'Laila', serif;
+    text-align: center;
+    margin: 20px 0; }
+
+section {
+  position: relative;
+  display: table-cell;
+  width: 30%;
+  height: 250px;
+  padding-top: 25px;
+  border: 1px solid #674a3e;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(to bottom, rgba(103, 74, 62, 0.65) 0%, rgba(103, 74, 62, 0.1) 100%);
+  color: #c0ae8b;
+  text-align: center;
+  line-height: 1.2em;
+  -webkit-box-reflect: below 0 linear-gradient(to bottom, rgba(103, 74, 62, 0) 85%, rgba(103, 74, 62, 0.1) 95%, rgba(103, 74, 62, 0.4) 100%); }
+  section .header-wrap {
+    border-top: 1px dashed #27150f;
+    border-bottom: 1px dashed #27150f; }
+    section .header-wrap h2 {
+      text-align: center;
+      background: #27150f;
+      padding: 10px 0;
+      margin: 0 -2px; }
+  section ul, section .text-wrap {
+    margin: 20px 15px 50px; }
+  section li {
+    text-align: left; }
+    section li img {
+      float: left;
+      margin-right: 10px; }
+  section li:first-child {
+    margin-bottom: 10px; }
+  section li:last-child {
+    padding-top: 10px;
+    border-top: 1px solid #c0ae8b; }
+  section address {
+    margin: 5px 0 15px; }
+  section .button-wrap {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    section .button-wrap button {
+      background: linear-gradient(to bottom, #d6a557 0%, #e0bb80 100%);
+      padding: 10px 30px;
+      border-radius: 10px;
+      border: 1px solid #e0bb80;
+      font-size: 1.1em;
+      color: #904d21; }
+  section strong {
+    margin-right: 3px; }
+  section .products a {
+    font-size: .9em; }
+  section .products p {
+    font-size: .8em; }
+
+footer {
+  height: 120px;
+  background: #e0bb80;
+  text-align: center;
+  font-size: .9em;
+  color: #904d21; }
+  footer nav {
+    padding: 30px 0 25px;
+    border-top: 1px dashed #27150f; }
+  footer li, footer a {
+    font-weight: bold; }
+  footer li:first-child {
+    border: none; }
+  footer li {
+    display: inline-block;
+    border-left: 1px solid #904d21; }
+  footer p {
+    color: #472f15; }
+  footer a {
+    color: #904d21; }
+  footer span {
+    padding: 0 7px 0 9px; }

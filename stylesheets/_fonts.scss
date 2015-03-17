@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Laila:400,500);
+
+/* General fonts */
+
+html {
+    font-size: 13px;
+    font-family: 'Arial Neue', arial, helvetica, sans-serif;
+    font-weight: 400;
+    color: $brown;
+}
+
+h1 {
+    font-family: 'Laila', serif;
+    font-size: 4em;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: $cream;
+}
+
+h2 {
+    font-family: 'Laila', serif;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 2em;
+    color: $creamDark;
+}
+
+a {
+    color: $tan;
+    text-decoration: none;
+}
+
+strong {
+    color: $cream;
+}
+
+button {
+    font-size: 1.1em;
+    color: $russet;
+}
+
+footer {
+    font-size: .9em;
+    color: $russet;
+}
+
+/* Section-specific fonts */
+
+.cart a {
+    font-size: 1.2em;
+}
+
+nav.primary-nav li {
+    font-size: 1.2em;
+}
+
+.nav-panel > div {
+    font-size: 2em;
+    font-family: 'Laila', serif;
+}
+
+section.products {
+    a {
+        font-size: .9em;
+    }
+    p {
+        font-size: .8em;
+    }
+}
+
+footer {
+    li, a {
+        font-weight: bold;
+    }
+    p {
+        color: $brown;
+    }
+    a {
+        color: $russet;
+    }
+}
